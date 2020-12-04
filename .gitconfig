@@ -1,0 +1,17 @@
+[user]
+	name = 
+	email = 
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+	
+	lol = log --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ci) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --all
+	flist = show --pretty="" --name-only
+[push]
+	default = simple
+[core]
+	autocrlf = input
